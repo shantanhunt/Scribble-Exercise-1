@@ -1,0 +1,225 @@
+{
+  "contractName": "__scribble_ReentrancyUtils",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"notice\":\"Utility contract holding a stack counter\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/zx/code/scribble-exercise-1/contracts/__scribble_ReentrancyUtils.sol\":\"__scribble_ReentrancyUtils\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/zx/code/scribble-exercise-1/contracts/__scribble_ReentrancyUtils.sol\":{\"keccak256\":\"0xcae4ffead4d979774d9950e8d7da66fbc01f69fc494fc49463949d41acd79a35\",\"urls\":[\"bzz-raw://59cf60a0816fd5313ae1b8c1cb3952c40c3c0795458195086304bd452836f5b5\",\"dweb:/ipfs/QmQPzumwuVjEXuSFAazVDt4KhzR7MGdxAr2uurDPL1Tvq9\"]}},\"version\":1}",
+  "bytecode": "0x608060405260016000806101000a81548160ff021916908315150217905550348015602957600080fd5b50603f8060376000396000f3fe6080604052600080fdfea264697066735822122098f554aaad27fa76cc0b4d157a0f07e712fa72f0ce6dfd6cb3e76fbb390f221464736f6c634300060c0033",
+  "deployedBytecode": "0x6080604052600080fdfea264697066735822122098f554aaad27fa76cc0b4d157a0f07e712fa72f0ce6dfd6cb3e76fbb390f221464736f6c634300060c0033",
+  "immutableReferences": {},
+  "sourceMap": "70:83:1:-:0;;;146:4;112:38;;;;;;;;;;;;;;;;;;;;70:83;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "70:83:1:-:0;;;;;",
+  "source": "pragma solidity 0.6.12;\n\n/// Utility contract holding a stack counter\ncontract __scribble_ReentrancyUtils {\n    bool __scribble_out_of_contract = true;\n}",
+  "sourcePath": "/home/zx/code/scribble-exercise-1/contracts/__scribble_ReentrancyUtils.sol",
+  "ast": {
+    "absolutePath": "/home/zx/code/scribble-exercise-1/contracts/__scribble_ReentrancyUtils.sol",
+    "exportedSymbols": {
+      "__scribble_ReentrancyUtils": [
+        43
+      ]
+    },
+    "id": 44,
+    "license": null,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 38,
+        "literals": [
+          "solidity",
+          "0.6",
+          ".12"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": {
+          "id": 39,
+          "nodeType": "StructuredDocumentation",
+          "src": "25:45:1",
+          "text": "Utility contract holding a stack counter"
+        },
+        "fullyImplemented": true,
+        "id": 43,
+        "linearizedBaseContracts": [
+          43
+        ],
+        "name": "__scribble_ReentrancyUtils",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 42,
+            "mutability": "mutable",
+            "name": "__scribble_out_of_contract",
+            "nodeType": "VariableDeclaration",
+            "overrides": null,
+            "scope": 43,
+            "src": "112:38:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_bool",
+              "typeString": "bool"
+            },
+            "typeName": {
+              "id": 40,
+              "name": "bool",
+              "nodeType": "ElementaryTypeName",
+              "src": "112:4:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_bool",
+                "typeString": "bool"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "74727565",
+              "id": 41,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "bool",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "146:4:1",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_bool",
+                "typeString": "bool"
+              },
+              "value": "true"
+            },
+            "visibility": "internal"
+          }
+        ],
+        "scope": 44,
+        "src": "70:83:1"
+      }
+    ],
+    "src": "0:153:1"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "/home/zx/code/scribble-exercise-1/contracts/__scribble_ReentrancyUtils.sol",
+      "exportedSymbols": {
+        "__scribble_ReentrancyUtils": [
+          43
+        ]
+      },
+      "license": null
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "0.6",
+            ".12"
+          ]
+        },
+        "id": 38,
+        "name": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "attributes": {
+          "abstract": false,
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            43
+          ],
+          "name": "__scribble_ReentrancyUtils",
+          "scope": 44
+        },
+        "children": [
+          {
+            "attributes": {
+              "text": "Utility contract holding a stack counter"
+            },
+            "id": 39,
+            "name": "StructuredDocumentation",
+            "src": "25:45:1"
+          },
+          {
+            "attributes": {
+              "constant": false,
+              "mutability": "mutable",
+              "name": "__scribble_out_of_contract",
+              "overrides": null,
+              "scope": 43,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "bool",
+              "visibility": "internal"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "bool",
+                  "type": "bool"
+                },
+                "id": 40,
+                "name": "ElementaryTypeName",
+                "src": "112:4:1"
+              },
+              {
+                "attributes": {
+                  "argumentTypes": null,
+                  "hexvalue": "74727565",
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "lValueRequested": false,
+                  "subdenomination": null,
+                  "token": "bool",
+                  "type": "bool",
+                  "value": "true"
+                },
+                "id": 41,
+                "name": "Literal",
+                "src": "146:4:1"
+              }
+            ],
+            "id": 42,
+            "name": "VariableDeclaration",
+            "src": "112:38:1"
+          }
+        ],
+        "id": 43,
+        "name": "ContractDefinition",
+        "src": "70:83:1"
+      }
+    ],
+    "id": 44,
+    "name": "SourceUnit",
+    "src": "0:153:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.6.12+commit.27d51765.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.3.4",
+  "updatedAt": "2021-10-12T17:19:52.684Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "notice": "Utility contract holding a stack counter",
+    "version": 1
+  }
+}

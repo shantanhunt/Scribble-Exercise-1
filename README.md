@@ -3,6 +3,12 @@
 In this exercise we're going to have a look at a vulnerable ERC20 smart contract. 
 We'll use Scribble to annotate it with properties, and use Mythril to automatically check the properties (and find bugs 🐛).
 
+### Usage with docker
+
+```
+sudo docker run -v $(pwd):/contracts mythril/myth analyze /contracts/vulnerableERC20.sol --solv 0.6.12
+```
+
 ### Handy Links
 Scribble Repository -> https://github.com/ConsenSys/Scribble
 
