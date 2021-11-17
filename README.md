@@ -6,6 +6,8 @@ We'll use Scribble to annotate it with properties, and use Mythril to automatica
 ### Usage with docker
 
 ```
+scribble --arm -m files ./contracts/vulnerableERC20.sol
+cd contracts
 sudo docker run -v $(pwd):/contracts mythril/myth analyze /contracts/vulnerableERC20.sol --solv 0.6.12
 ```
 
